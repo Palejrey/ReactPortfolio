@@ -1,8 +1,12 @@
-import React from "react";
-import List from "./components/List";
-import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import AboutMe from "./Pages/AboutMe";
+import Contact from "./Pages/Contact";
+import Home from "./Pages/Home";
+import Resume from "./Pages/Resume";
+import Portfolio from "./Pages/Portfolio";
+import Footer from "./components/Footer";
 
-const projects = [
+/*const projects = [
   {
     id: 1,
     name: "Project-1",
@@ -33,13 +37,34 @@ const projects = [
     name: "Project-6",
     completed: true
   }
-];
+];*/
 
 function App() {
-  return  <div>
-    <Header />
-    <List projects={projects} />
-    </div>;
+  let component;
+  switch (window.location.pathname) {
+    case "/":
+      component = <Home/>;
+      break
+    case "/aboutMe":
+      component = <AboutMe/>;
+      break
+    case "/portfolio":
+      component = <Portfolio/>;
+      break
+    case "/contact":
+      component = <Contact/>;
+      break
+    case "/resume":
+      component = <Resume/>;
+      break
+  }
+  return  (
+    <div>
+      <Navbar />
+      <div className="container">{component}</div>
+      <Footer />   
+    </div>
+  )
 }
 
 export default App;
