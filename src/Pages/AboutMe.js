@@ -1,4 +1,4 @@
-export default function home(){
+export default function AboutMe(){
     return(
     <div>
         <h1>About Me</h1>
