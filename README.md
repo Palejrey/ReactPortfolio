@@ -11,9 +11,9 @@
  - [Tests](#) 
  - [Questions](#Questions) 
 ## Installation 
- > There are no installation instructions simply run the website linked below. 
+ > There are no installation instructions; simply run the website linked below. 
  ## Usage 
- > You can click on the photos to go to previously completed project or links to my socials. 
+ > You can click on the photos to go to previously completed projects or links to my socials, and you can create comments with your email and name. 
  ## Contribution 
  > None. 
 ## License 
@@ -21,6 +21,6 @@
  ## Tests 
  > None. 
  ## Questions 
-For any further questions regading the application,  you can contact me at: https://github.com/palejrey or palejrey@gmail.com
+For any further questions regarding the application,  you can contact me at: https://github.com/palejrey or palejrey@gmail.com
 ## Link
 https://palejrey.github.io/ReactPortfolio/
